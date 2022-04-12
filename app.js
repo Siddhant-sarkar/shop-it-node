@@ -8,7 +8,6 @@ const errorController = require('./controllers/error');
 
 const app = express();
 var port = process.env.Port || 5050;
-// console.log(port)
 
 
 app.set('view engine', 'ejs');
