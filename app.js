@@ -7,7 +7,7 @@ const bodyParser = require('body-parser');
 const errorController = require('./controllers/error');
 
 const app = express();
-var port = process.env.Port || 5050;
+var port = process.env.Port || 3000;
 
 
 app.set('view engine', 'ejs');
