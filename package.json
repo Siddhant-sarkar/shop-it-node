@@ -1,14 +1,14 @@
 {
-  "name": "nodejs-complete-guide",
+  "name": "shop-it-node",
   "version": "1.0.0",
-  "description": "Complete Node.js Guide",
+  "description": "Shop app built from node.js",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
     "start-server": "node app.js"
   },
-  "author": "Maximilian Schwarzmüller",
+  "author": "Siddhant Sarkar",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^1.18.3"
