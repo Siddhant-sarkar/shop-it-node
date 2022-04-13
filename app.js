@@ -1,5 +1,4 @@
 const path = require('path');
-const process = require('process')
 
 const express = require('express');
 const bodyParser = require('body-parser');
@@ -7,8 +6,6 @@ const bodyParser = require('body-parser');
 const errorController = require('./controllers/error');
 
 const app = express();
-var port = process.env.Port || 3000;
-
 
 app.set('view engine', 'ejs');
 app.set('views', 'views');
@@ -24,4 +21,4 @@ app.use(shopRoutes);
 
 app.use(errorController.get404);
 
-app.listen(port);
+app.listen(3000);
