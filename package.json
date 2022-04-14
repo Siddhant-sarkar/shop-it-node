@@ -1,7 +1,7 @@
 {
-  "name": "Shop application",
+  "name": "Shop-it-Up",
   "version": "1.0.0",
-  "description": "Complete shop application using Node.js and SQL database",
+  "description": "Online shop ecommerce webiste build entirely using Node.js and SQL Database",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,6 +16,6 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
-    "express": "^4.16.3",
+    "express": "^4.16.3"
   }
 }
